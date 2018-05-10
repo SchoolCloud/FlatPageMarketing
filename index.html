@@ -3,7 +3,7 @@
     <!--Meta Tags-->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
-    <title>SchoolCloud.io - By teachers, For teachers!</title>    
+    <title>SchoolCloud.io - By teachers, For teachers!</title>
     <meta name="description" content="School Cloud provides an innovative, K-12 education technology platform fueling operations, classroom, student growth, and family engagement by teachers, for teachers" />
     <meta name="author" content="Schoolcloud Systems, LLC" />
     <meta name="keywords" content="student, student portal, high school, gradebook, sis, lms, lmss, elearning, technlogy, classroom" />
@@ -26,20 +26,19 @@
     <!--style Sheets-->
     <link rel="shortcut icon" type="image/png" href="./dist/static/images/favicon-32x32.png">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.12/css/brands.css" integrity="sha384-Pln/erVatVEIIVh7sfyudOXs5oajCSHg7l5e2Me02e3TklmDuKEhQ8resTIwyI+w" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.12/css/fontawesome.css" integrity="sha384-rnr8fdrJ6oj4zli02To2U/e6t1qG8dvJ8yNZZPsKHcU7wFK3MGilejY5R/cUc5kf" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.12/css/all.css" integrity="sha384-G0fIWCsCzJIMAVNQPfjH08cyYaUtMwjJwqiRKxxE/rx96Uroj1BtIQ6MLJuheaO9" crossorigin="anonymous">
     <link rel="stylesheet" href="../wwwroot/site.css" />
 </head>
 
 <body class="container-fluid m-0 p-0" style="min-height: 100vh;">
-  <!-- Nav Bar --> 
+  <!-- Nav Bar -->
       <nav class="navbar navbar-expand-lg navbar-dark sticky-top">
         <div class="container-fluid">
             <a class="navbar-brand active" href="index.html">Bear Icon</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
-          
+
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
               <ul class="navbar-nav ml-auto">
                 <li class="nav-item dropdown">
@@ -50,28 +49,28 @@
                     <a class="dropdown-item" href="Solutions/Gradebook.html">Gradebook</a>
                     <a class="dropdown-item" href="Solutions/StudentManagement.html">Student Management</a>
                     <a class="dropdown-item" href="Solutions/SchoolManagement.html">School Management</a>
-                    <a class="dropdown-item" href="Solutions/ITManagement.html">IT Management</a>                    
+                    <a class="dropdown-item" href="Solutions/ITManagement.html">IT Management</a>
                   </div>
-                </li>   
+                </li>
                 <li class="nav-item">
                     <a class="nav-link" href="support.html">Support</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="demo.html">Demo</a>
-                </li>  
+                </li>
                 <li class="nav-item">
                   <a class="nav-link" href="blog.html">Blog</a>
-                </li>            
+                </li>
                 <li class="nav-item">
                   <a class="nav-link" href="about.html">About</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="contact.html">Contact</a>
-                </li>  
+                </li>
                 <li class="nav-item">
                  <a class="nav-link" href="//dev.schoolcloud.io">Login</a>
-                </li> 
-              </ul>              
+                </li>
+              </ul>
             </div>
           </div>
       </nav>
@@ -102,18 +101,18 @@
           <span class="sr-only">Next</span>
         </a>
       </div>
-    
+
       <!-- About Section -->
     <div id="AboutSection" class="text-center mb-4" style="height: 15rem;">
       <div class="container h-100 justify-content-center align-content-center">
-          <div class="row align-self-center h-100"> 
-            <div class="col-12 align-self-center">               
+          <div class="row align-self-center h-100">
+            <div class="col-12 align-self-center">
                 <h3 style="text-align: center;">School Cloud is by Teachers for Teachers</h3>
                 <h4 style="text-align: center;">We work with people who are as dedicated to their craft as we are to ours. And, we do everything with our core values of honesty, hard work, and trust.</h4>
                 <p style="text-align: center;">
                   <a class="btn btn-outline-info" href="/about.html">Learn more<span></span><span></span></a>
-                </p>               
-            </div> 
+                </p>
+            </div>
           </div>
       </div>
     </div>
@@ -184,11 +183,38 @@
     </div>
 
     <!-- Contact Section -->
-    <div id="ContactSection" class="text-center bg-warning" style="height: 15rem;">
-        <div class="container">
-            Contact section:  Contact form that goes to something
+    <div id="ContactSection" class="text-center bg-warning" style="height: 20rem;">
+        <div class="container pt-4">
+          <form id="ContactForm" name="contact" action="SubmitForm" method="Post" netlify-honeypot="bot-field" netlify>
+            <p class="d-none">
+              <label>Don’t fill this out if you're human: <input name="bot-field"></label>
+            </p>
+            <div class="col-lg-6 text-center col-md-8 ml-auto mr-auto">
+              <div class="input-group input-lg">
+                <span class="input-group-addon">
+                  <i class="far fa-user-circle"></i>
+                </span>
+                <input class="form-control" placeholder="First Name..." type="text">
+              </div>
+              <div class="input-group input-lg">
+                <span class="input-group-addon">
+                  <i class="far fa-envelope"></i>
+                </span>
+                <input class="form-control" placeholder="Email..." type="text">
+              </div>
+              <div class="textarea-container">
+                <textarea class="form-control" name="name" rows="4" cols="80" placeholder="Type a message..."></textarea>
+              </div>
+              <div class="send-button">
+                <button type="submit" class="btn btn-outline-success">Send Message</button>
+                <!--<a href="mailto:andrew@schoolcloud.io" class="btn btn-primary btn-round btn-block btn-lg">Send Message</a>-->
+              </div>
+            </div>
+          </form>
         </div>
     </div>
+
+    <!--Footer Section-->
     <div class="footer row d-flex justify-content-center w-100 bg-secondary m-0 p-0 text-white align-content-center" style="height: 3rem;">
       <div class="col h-100"></div>
       <div class="col h-100 text-center">&copy; 2018 Schoolcloud Systems</div>
@@ -200,6 +226,21 @@
     </div>
 </body>
 
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<!--<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>-->
+<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+
+<script>
+$("#ContactForm").submit(function(e) {
+  e.preventDefault();
+  alert();
+  var $form = $(this);
+  $.post($form.attr("action"), $form.serialize()).done(function() {
+    let contactSection = $("#ContactSection");
+    contactSection.addClass("bg-success");
+    contactSection.html("<div class='col-12 text-center'>Thank you!  We look forward to talking with you!</div>");
+  }).fail(function(){
+    alert("Uhoh, looks like something went wrong!  Try refreshing your browser and resubmitting your message.  Or email us at andrew@schoolcloud.io!");
+  });
+});
+</script>
